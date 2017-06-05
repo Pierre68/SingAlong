@@ -1,0 +1,80 @@
+#login{
+
+  color: white;
+  width: 25em;
+  height: 20em;
+  margin: auto;
+  margin-top: 3em;
+
+  background-color: rgb(54, 149, 212);
+  border-style: none;
+  text-align: center;
+
+  border-radius: 5px;
+
+  display: none;
+
+}
+
+#register{
+
+  color: white;
+  display: none;
+  width: 25em;
+  height: 23.5em;
+  margin: auto;
+  margin-top: 3em;
+
+  background-color: rgb(54, 149, 212);
+  border-style: none;
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+.textboxes{
+  width: 17em;
+  height: 2em;
+  margin-top: 1em;
+  color: white;
+  border-color: white;
+  border-radius: 0.05em;
+  border-style: none;
+  border-bottom-style: solid;
+  font-size: 1.1em;
+  text-indent: 0.6em;
+  background-color: transparent;
+}
+
+
+.validationButton{
+  cursor: pointer;
+  font-size: 1.3em;
+  color: white;
+  background-color: transparent;
+  width: 10em;
+  height: 2.2em;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.4em;
+  transition: 0.5s;
+}
+.validationButton:hover{
+  background-color: white;
+  color: rgb(54, 149, 212);
+  transition: 0.2s;
+}
+
+.changeButton{
+    cursor: pointer;
+}
+
+.closeButton{
+  cursor: pointer;
+  position: relative;
+  left: 11.8em;
+}
+
+.material-icons{
+  text-indent: 0.5em;
+}

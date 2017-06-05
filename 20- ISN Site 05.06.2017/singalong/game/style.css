@@ -1,0 +1,135 @@
+body{
+  background-color: white;
+  color: black;
+  background-image: url("../images/baccueil_bg.jpg"); /*http://cdn1.theodysseyonline.com/files/2016/01/04/6358748036944186621892622963_music.jpg*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(180, 180, 180);
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  color: white;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(54, 149, 212);
+  width: 100vw;
+  color: white;
+  position: fixed;
+  bottom: 0;
+}
+section{
+  color: rgb(41,41,41);
+}
+
+a{
+  display: none;
+}
+
+#defaultCanvas0{
+  position: relative;
+  right: 384px;
+  margin-left: 50vw;
+  top: -6em;
+}
+
+#p5_loading{
+  position: relative;
+  margin-left: 50vw;
+  font-size: 2em;
+  top: 8em;
+  left: -1.3em;
+  text-shadow: 3px 3px darkblue;
+}
+
+
+#startButton{
+  position: relative;
+  top: -5.1em;
+  margin-left: 50vw;
+  left: -3.1em;
+  cursor: pointer;
+  color: white;
+  padding: 0.5em 2em;
+  background-color: rgb(54, 149, 212);
+  border: none;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  border-radius: 2em;
+  transition: 0.5s;
+}
+#startButton:hover{
+  background-color: rgb(94, 189, 252);
+  transition: 0.2s;
+}
+
+#offsetButton{
+  position: relative;
+  top: -10.2em;
+  margin-left: 50vw;
+  left: 10em;
+  cursor: pointer;
+  color: white;
+  padding: 0.2em 1em;
+  background-color: rgb(54, 149, 212);
+  border: none;
+  font-family: sans-serif;
+  font-size: 1em;
+  border-radius: 2em;
+  transition: 0.5s;
+}
+#offsetButton:hover{
+  background-color: rgb(94, 189, 252);
+  transition: 0.2s;
+}
+#offsetButton:before {
+  content: 'Voix : ';
+}
+
+#volumeDiv {
+  position: absolute;
+  top: 30em;
+  margin-left: 50vw;
+  left: -7.5em;
+  color: white;
+  padding: 0.4em;
+  background-color: rgb(100, 100, 100);
+  font-family: sans-serif;
+  font-size: 1.5em;
+  border-radius: 2em;
+  transition: 0.5s;
+}
+
+#lyrics{
+  margin-left: 50vw;
+  position: relative;
+  right: 384px;
+  top: 31em;
+  background-color: rgb(51, 51, 51);
+  padding: 0.8em 0;
+  width: 768px;
+}
+#lyrics_main{
+  text-align: center;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 2px darkblue;
+}
+#lyrics_sub{
+  color: gray;
+  margin-top: 1em;
+  text-align: center;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  text-shadow: 3px 3px 2px darkblue;
+}

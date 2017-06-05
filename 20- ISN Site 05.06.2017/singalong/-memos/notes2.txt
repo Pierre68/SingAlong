@@ -1,0 +1,3 @@
+https://forum.phpfrance.com/sql-bases-donnees/ranger-une-base-donnee-t798.html
+
+$req = "SELECT nom, points FROM tbl_user ORDER BY points DESC";
